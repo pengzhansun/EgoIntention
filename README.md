@@ -33,9 +33,7 @@ We introduce **EgoIntention**, the first dataset for *egocentric visual intentio
 
 ## Challenge
 
-Models must resist distractions from unintended objects and reason about **uncommon functionalities** of objects.  
-
-Example: In the query *“gather my phone and belongings”*, existing models often wrongly ground **phone** (explicitly mentioned), while the correct target is **handbag** (implicitly intended).
+The model must infer the intended object from the full intention sentence, rather than simply detecting explicitly mentioned objects. In this example, “gather my phone and belongings” explicitly mentions “phone” (highlighted in red) , which often misleads existing visual grounding models to identify the wrong object (red box). The correct target, a handbag (green box), is only implied.
 
 <div align="center">
   <img width="500" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_challenge.jpg"/>
@@ -45,7 +43,7 @@ Example: In the query *“gather my phone and belongings”*, existing models of
 
 ## Dataset
 
-We build on PACO’s egocentric image splits and annotate **intention queries with bounding boxes**.
+We source PACOEgo4D images and annotate **intention queries with bounding boxes**.
 
 - **15,667** training samples  
 - **825** validation samples  
@@ -66,10 +64,11 @@ We build on PACO’s egocentric image splits and annotate **intention queries wi
 
 ## Method
 
-We introduce **Reason-to-Ground (RoG)** instruction tuning:  
-- Performs *counterfactual analysis* by comparing factual vs. counterfactual inference outcomes.  
-- Bridges **normal descriptions** and **egocentric intentions**.  
-- Outperforms naive fine-tuning and hybrid training strategies.
+Our proposed **Reason-to-Ground (RoG)** instruction tuning improves grounding performance by chaining two stages:
+1. **Intention reasoning** → infer the explicit object category from the intention.  
+2. **Object grounding** → localize the object in the scene.  
+
+RoG enables unified visual grounding across both **egocentric (implicit intentions)** and **exocentric (explicit queries)** perspectives.
 
 <div align="center">
   <img width="650" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_method.jpg"/>
@@ -83,3 +82,21 @@ We introduce **Reason-to-Ground (RoG)** instruction tuning:
 git clone https://github.com/pengzhansun/EgoIntention.git
 cd EgoIntention
 pip install -r requirements.txt
+
+
+---
+
+## Getting Started
+
+---
+
+## Checkpoints
+
+---
+
+## Acknowledgments
+
+---
+
+## Citation
+
