@@ -25,14 +25,9 @@ Egocentric AI assistants must understand **human intentions** that are often imp
 We introduce **EgoIntention**, the first dataset for *egocentric visual intention grounding*, where models must localize objects in first-person views based on natural intention queries.
 
 <div align="center">
-  <img width="500" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_teaser.png"/>
+  <img width="500" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_teaser.jpg"/>
 </div>
 
-Our proposed **Reason-to-Ground (RoG)** instruction tuning improves grounding performance by chaining two stages:
-1. **Intention reasoning** → infer the explicit object category from the intention.
-2. **Object grounding** → localize the object in the scene.
-
-RoG enables unified visual grounding across both **egocentric (implicit intentions)** and **exocentric (explicit queries)** perspectives.
 
 ---
 
@@ -43,7 +38,7 @@ Models must resist distractions from unintended objects and reason about **uncom
 Example: In the query *“gather my phone and belongings”*, existing models often wrongly ground **phone** (explicitly mentioned), while the correct target is **handbag** (implicitly intended).
 
 <div align="center">
-  <img width="500" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_challenge.png"/>
+  <img width="500" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_challenge.jpg"/>
 </div>
 
 ---
@@ -60,7 +55,7 @@ We build on PACO’s egocentric image splits and annotate **intention queries wi
   - **Uncommon intentions** – alternative object functionalities  
 
 <div align="center">
-  <img width="500" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_collection.png"/>
+  <img width="500" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_collection.jpg"/>
 </div>
 
 🔗 Download:  
@@ -77,7 +72,7 @@ We introduce **Reason-to-Ground (RoG)** instruction tuning:
 - Outperforms naive fine-tuning and hybrid training strategies.
 
 <div align="center">
-  <img width="650" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_method.png"/>
+  <img width="650" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_method.jpg"/>
 </div>
 
 ---
