@@ -82,7 +82,7 @@ RoG enables unified visual grounding across both **egocentric (implicit intentio
 git clone https://github.com/pengzhansun/EgoIntention.git
 cd EgoIntention
 pip install -r requirements.txt
-
+```
 
 ---
 
@@ -100,3 +100,13 @@ pip install -r requirements.txt
 
 ## Citation
 
+If you find this project useful, please cite:
+
+```bibtex
+@article{sun2025visual,
+  title={Visual Intention Grounding for Egocentric Assistants},
+  author={Sun, Pengzhan and Xiao, Junbin and Tse, Tze Ho Elden and Li, Yicong and Akula, Arjun and Yao, Angela},
+  journal={arXiv preprint arXiv:2504.13621},
+  year={2025}
+}
+```
