@@ -25,7 +25,7 @@ Egocentric AI assistants must understand **human intentions** that are often imp
 We introduce **EgoIntention**, the first dataset for *egocentric visual intention grounding*, where models must localize objects in first-person views based on natural intention queries.
 
 <div align="center">
-  <img width="500" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_teaser.jpg"/>
+  <img width="600" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_teaser.jpg"/>
 </div>
 
 
@@ -36,7 +36,7 @@ We introduce **EgoIntention**, the first dataset for *egocentric visual intentio
 The model must infer the intended object from the full intention sentence, rather than simply detecting explicitly mentioned objects. In this example, “gather my phone and belongings” explicitly mentions “phone” (highlighted in red) , which often misleads existing visual grounding models to identify the wrong object (red box). The correct target, a handbag (green box), is only implied.
 
 <div align="center">
-  <img width="500" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_challenge.jpg"/>
+  <img width="300" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_challenge.jpg"/>
 </div>
 
 ---
@@ -53,7 +53,7 @@ We source PACOEgo4D images and annotate **intention queries with bounding boxes*
   - **Uncommon intentions** – alternative object functionalities  
 
 <div align="center">
-  <img width="500" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_collection.jpg"/>
+  <img width="600" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_collection.jpg"/>
 </div>
 
 🔗 Download:  
@@ -71,7 +71,7 @@ Our proposed **Reason-to-Ground (RoG)** instruction tuning improves grounding pe
 RoG enables unified visual grounding across both **egocentric (implicit intentions)** and **exocentric (explicit queries)** perspectives.
 
 <div align="center">
-  <img width="650" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_method.jpg"/>
+  <img width="300" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_method.jpg"/>
 </div>
 
 ---
