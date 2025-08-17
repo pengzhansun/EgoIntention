@@ -98,7 +98,10 @@ RoG enables unified visual grounding across both **egocentric (implicit intentio
 
 ## Acknowledgments
 
+We would like to thank the following open-source contributions that made this work possible:
 
+- [MiniGPT-v2](https://github.com/Vision-CAIR/MiniGPT-4) for their awesome open-source vision-language model.
+- [PACO](https://github.com/facebookresearch/paco) for their valuable dataset contribution.
 
 ---
 
