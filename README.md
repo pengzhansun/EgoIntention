@@ -4,11 +4,11 @@
 [![Conference](https://img.shields.io/badge/ICCV-2025-blue)](https://iccv2025.thecvf.com/)  
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
----
-
 🔗 Download:  
 - [PACO-Ego4D source images](https://ego4d-data.org/)  
 - [EgoIntention annotations (Google Drive)](https://drive.google.com/drive/folders/1pLuM1oZK8ULUPZenPShrEpHaggKXVj5H?usp=sharing)
+
+---
 
 - [Introduction](#introduction)
 - [Challenge](#challenge)
