@@ -1,11 +1,9 @@
 # Visual Intention Grounding for Egocentric Assistants (ICCV 2025)
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv:2504.13621-B31B1B)](https://arxiv.org/abs/2504.13621)  
-[![Conference](https://img.shields.io/badge/ICCV-2025-blue)](https://iccv2025.thecvf.com/)  
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Paper](https://img.shields.io/badge/Paper-arXiv:2504.13621-B31B1B)](https://arxiv.org/abs/2504.13621)  [![Conference](https://img.shields.io/badge/ICCV-2025-blue)](https://iccv2025.thecvf.com/)  [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 🔗 Download:  
-- [PACO-Ego4D source images](https://ego4d-data.org/)  
+- [PACO-Ego4D source images](https://ego4d-data.org/)  [PACO github repo](https://github.com/facebookresearch/paco)
 - [EgoIntention annotations (Google Drive)](https://drive.google.com/drive/folders/1pLuM1oZK8ULUPZenPShrEpHaggKXVj5H?usp=sharing)
 
 ---
@@ -61,7 +59,7 @@ We source PACOEgo4D images and annotate **intention queries with bounding boxes*
 </div>
 
 🔗 Download:  
-- [PACO-Ego4D source images](https://ego4d-data.org/)  
+- [PACO-Ego4D source images](https://ego4d-data.org/)  [PACO github repo](https://github.com/facebookresearch/paco)
 - [EgoIntention annotations (Google Drive)](https://drive.google.com/drive/folders/1pLuM1oZK8ULUPZenPShrEpHaggKXVj5H?usp=sharing)
 
 ---
