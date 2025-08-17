@@ -6,6 +6,10 @@
 
 ---
 
+🔗 Download:  
+- [PACO-Ego4D source images](https://ego4d-data.org/)  
+- [EgoIntention annotations (Google Drive)](https://drive.google.com/drive/folders/1pLuM1oZK8ULUPZenPShrEpHaggKXVj5H?usp=sharing)
+
 - [Introduction](#introduction)
 - [Challenge](#challenge)
 - [Dataset](#dataset)
@@ -58,7 +62,7 @@ We source PACOEgo4D images and annotate **intention queries with bounding boxes*
 
 🔗 Download:  
 - [PACO-Ego4D source images](https://ego4d-data.org/)  
-- [EgoIntention annotations (Google Drive)](https://drive.google.com/drive/folders/1pLuM1oZK8ULUPZenPShrEpHaggKXVj5H?usp=sharing)  
+- [EgoIntention annotations (Google Drive)](https://drive.google.com/drive/folders/1pLuM1oZK8ULUPZenPShrEpHaggKXVj5H?usp=sharing)
 
 ---
 
@@ -78,23 +82,25 @@ RoG enables unified visual grounding across both **egocentric (implicit intentio
 
 ## Requirements
 
-```bash
-git clone https://github.com/pengzhansun/EgoIntention.git
-cd EgoIntention
-pip install -r requirements.txt
-```
+🚧 *To be updated — will include dependency installation and environment setup instructions.*
 
 ---
 
 ## Getting Started
 
+🚧 *To be updated — training, evaluation, and example usage scripts will be added here.*
+
 ---
 
 ## Checkpoints
 
+🚧 *To be updated — links to pretrained and fine-tuned models will be provided here.*
+
 ---
 
 ## Acknowledgments
+
+
 
 ---
 
