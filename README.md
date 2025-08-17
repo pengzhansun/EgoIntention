@@ -17,7 +17,6 @@
 - [Checkpoints](#checkpoints)
 - [Acknowledgments](#acknowledgments)
 - [Citation](#citation)
-- [Contact](#contact)
 
 ---
 
