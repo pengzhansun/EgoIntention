@@ -1,6 +1,6 @@
 # Visual Intention Grounding for Egocentric Assistants (ICCV 2025)
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv:2504.13621-B31B1B)]([https://arxiv.org/abs/2504.13621](https://openaccess.thecvf.com/content/ICCV2025/papers/Sun_Visual_Intention_Grounding_for_Egocentric_Assistants_ICCV_2025_paper.pdf))  [![Conference](https://img.shields.io/badge/ICCV-2025-blue)](https://iccv2025.thecvf.com/)  [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Paper](https://img.shields.io/badge/Paper-arXiv:2504.13621-B31B1B)](https://openaccess.thecvf.com/content/ICCV2025/papers/Sun_Visual_Intention_Grounding_for_Egocentric_Assistants_ICCV_2025_paper.pdf)  [![Conference](https://img.shields.io/badge/ICCV-2025-blue)](https://iccv.thecvf.com)  [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 🔗 Download:  
 - [PACO-Ego4D source images](https://ego4d-data.org/)  [PACO github repo](https://github.com/facebookresearch/paco)
