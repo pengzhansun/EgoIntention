@@ -12,8 +12,6 @@
 - [Challenge](#challenge)
 - [Dataset](#dataset)
 - [Method](#method)
-- [Requirements](#requirements)
-- [Getting Started](#getting-started)
 - [Checkpoints](#checkpoints)
 - [Acknowledgments](#acknowledgments)
 - [Citation](#citation)
@@ -75,53 +73,21 @@ RoG enables unified visual grounding across both **egocentric (implicit intentio
   <img width="300" src="https://github.com/pengzhansun/EgoIntention/blob/main/Figures/cr_method.jpg"/>
 </div>
 
----
-
-## Requirements
-
-🚧 *To be updated — will include dependency installation and environment setup instructions.*
-
----
-
-## Getting Started
-
-🚧 *To be updated — training, evaluation, and example usage scripts will be added here.*
 
 ---
 
 ## Checkpoints
 
-🚧 *To be updated — links to pretrained and fine-tuned models will be provided here.*
-
-## 🔍 Checkpoints & Result Logs
-
 Each row corresponds to an SFT configuration used for MiniGPT-v2 fine-tuning.  
-Replace the blank Google Drive links with your artifacts.
 
-| RC/+/g | RCInt./+/g | EgoInt. | Method    | Log #1 | Log #2 | Log #3 | Checkpoint |
-|:------:|:----------:|:-------:|:---------:|:------:|:------:|:------:|:----------:|
-| –      | –          | –       | 0-shot    | [link]() | [link]() | [link]() | [ckpt]() |
-| ✓      |            |         | Naive SFT | [link]() | [link]() | [link]() | [ckpt]() |
-|        |            | ✓       | Naive SFT | [link]() | [link]() | [link]() | [ckpt]() |
-| ✓      |            | ✓       | Naive SFT | [link]() | [link]() | [link]() | [ckpt]() |
-| ✓      | ✓          | ✓       | Naive SFT | [link]() | [link]() | [link]() | [ckpt]() |
-| ✓      | ✓          | ✓       | RoG SFT   | [link]() | [link]() | [link]() | [ckpt]() |
-
-> **Legend**  
-> **RC/+/g**: RefCOCO / RefCOCO+ / RefCOCOg datasets  
-> **RCInt./+/g**: Instruction-style variants for RefCOCO / RefCOCO+ / RefCOCOg  
-> **EgoInt.**: EgoIntention dataset  
-> **RoG SFT**: Your RoG-style SFT variant
-
-### Suggested Naming Convention
-- **Log file name:** `run=<method>__rc=<0/1>__rcint=<0/1>__egoint=<0/1>__seed=<xxx>.log`  
-- **Checkpoint folder:** `checkpoints/<run_name>/checkpoint-<step>/`
-
-### Example (how to fill links)
-```text
-[link](https://drive.google.com/...)  → result log
-[ckpt](https://drive.google.com/...)  → model checkpoint
-
+| RC/+/g | RCInt./+/g | EgoInt. | Method    | Context | Uncommon | Object | Checkpoint |
+|:------:|:----------:|:-------:|:---------:|:------:|:--------:|:------:|:----------:|
+| –      | –          | –       | 0-shot    | [21.7]() | [18.0]() | [40.8]() | [ckpt]()   |
+| ✓      |            |         | Naive SFT | [23.7]() | [19.4]() | [38.1]() | [ckpt]()   |
+|        |            | ✓       | Naive SFT | [42.8]() | [39.2]() | [46.2]() | [ckpt]()   |
+| ✓      |            | ✓       | Naive SFT | [45.9]() | [40.8]() | [48.6]() | [ckpt]()   |
+| ✓      | ✓          | ✓       | Naive SFT | [46.0]() | [40.9]() | [51.3]() | [ckpt]()   |
+| ✓      | ✓          | ✓       | RoG SFT   | [49.9]() | [44.7]() | [52.2]() | [ckpt]()   |
 
 ---
 
