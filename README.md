@@ -93,6 +93,36 @@ RoG enables unified visual grounding across both **egocentric (implicit intentio
 
 🚧 *To be updated — links to pretrained and fine-tuned models will be provided here.*
 
+## 🔍 Checkpoints & Result Logs
+
+Each row corresponds to an SFT configuration used for MiniGPT-v2 fine-tuning.  
+Replace the blank Google Drive links with your artifacts.
+
+| RC/+/g | RCInt./+/g | EgoInt. | Method    | Log #1 | Log #2 | Log #3 | Checkpoint |
+|:------:|:----------:|:-------:|:---------:|:------:|:------:|:------:|:----------:|
+| –      | –          | –       | 0-shot    | [link]() | [link]() | [link]() | [ckpt]() |
+| ✓      |            |         | Naive SFT | [link]() | [link]() | [link]() | [ckpt]() |
+|        |            | ✓       | Naive SFT | [link]() | [link]() | [link]() | [ckpt]() |
+| ✓      |            | ✓       | Naive SFT | [link]() | [link]() | [link]() | [ckpt]() |
+| ✓      | ✓          | ✓       | Naive SFT | [link]() | [link]() | [link]() | [ckpt]() |
+| ✓      | ✓          | ✓       | RoG SFT   | [link]() | [link]() | [link]() | [ckpt]() |
+
+> **Legend**  
+> **RC/+/g**: RefCOCO / RefCOCO+ / RefCOCOg datasets  
+> **RCInt./+/g**: Instruction-style variants for RefCOCO / RefCOCO+ / RefCOCOg  
+> **EgoInt.**: EgoIntention dataset  
+> **RoG SFT**: Your RoG-style SFT variant
+
+### Suggested Naming Convention
+- **Log file name:** `run=<method>__rc=<0/1>__rcint=<0/1>__egoint=<0/1>__seed=<xxx>.log`  
+- **Checkpoint folder:** `checkpoints/<run_name>/checkpoint-<step>/`
+
+### Example (how to fill links)
+```text
+[link](https://drive.google.com/...)  → result log
+[ckpt](https://drive.google.com/...)  → model checkpoint
+
+
 ---
 
 ## Acknowledgments
