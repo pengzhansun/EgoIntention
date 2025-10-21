@@ -83,11 +83,11 @@ Each row corresponds to an SFT configuration used for MiniGPT-v2 fine-tuning.
 | RC/+/g | RCInt./+/g | EgoInt. | Method    | Context | Uncommon | Object | Checkpoint |
 |:------:|:----------:|:-------:|:---------:|:------:|:--------:|:------:|:----------:|
 | –      | –          | –       | 0-shot    | [21.7]() | [18.0]() | [40.8]() | [ckpt]()   |
-| ✓      |            |         | Naive SFT | [23.7]() | [19.4]() | [38.1]() | [ckpt]()   |
-|        |            | ✓       | Naive SFT | [42.8]() | [39.2]() | [46.2]() | [ckpt]()   |
-| ✓      |            | ✓       | Naive SFT | [45.9]() | [40.8]() | [48.6]() | [ckpt]()   |
-| ✓      | ✓          | ✓       | Naive SFT | [46.0]() | [40.9]() | [51.3]() | [ckpt]()   |
-| ✓      | ✓          | ✓       | RoG SFT   | [49.9]() | [44.7]() | [52.2]() | [ckpt]()   |
+| ✓      |            |         | Naive SFT | [23.7]() | [19.4]() | [38.1]() | [ckpt](https://drive.google.com/file/d/1Siv6tNfyx4us8w0Lp__NcFb7yvaU_U6b/view?usp=share_link)   |
+|        |            | ✓       | Naive SFT | [42.8]() | [39.2]() | [46.2]() | [ckpt](https://drive.google.com/file/d/1TUllEAcqQBS6QwfvAWgzYkaAPBNcgr2g/view?usp=share_link)   |
+| ✓      |            | ✓       | Naive SFT | [45.9]() | [40.8]() | [48.6]() | [ckpt](https://drive.google.com/file/d/1TUllEAcqQBS6QwfvAWgzYkaAPBNcgr2g/view?usp=share_link)   |
+| ✓      | ✓          | ✓       | Naive SFT | [46.0]() | [40.9]() | [51.3]() | [ckpt](https://drive.google.com/file/d/174IzsjO8X2dl4T6DP5mzBeTYTes0-Hx6/view?usp=share_link)   |
+| ✓      | ✓          | ✓       | RoG SFT   | [49.9]() | [44.7]() | [52.2]() | [ckpt](https://drive.google.com/file/d/1ghmdqu3xEdZWBJ_jj_7AlUcZdab314pb/view?usp=share_link)   |
 
 ---
 
