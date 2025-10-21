@@ -82,12 +82,12 @@ Each row corresponds to an SFT configuration used for MiniGPT-v2 fine-tuning.
 
 | RC/+/g | RCInt./+/g | EgoInt. | Method    | Context | Uncommon | Object | Checkpoint |
 |:------:|:----------:|:-------:|:---------:|:------:|:--------:|:------:|:----------:|
-| –      | –          | –       | 0-shot    | [21.7]() | [18.0]() | [40.8]() | [ckpt]()   |
-| ✓      |            |         | Naive SFT | [23.7]() | [19.4]() | [38.1]() | [ckpt](https://drive.google.com/file/d/1Siv6tNfyx4us8w0Lp__NcFb7yvaU_U6b/view?usp=share_link)   |
-|        |            | ✓       | Naive SFT | [42.8]() | [39.2]() | [46.2]() | [ckpt](https://drive.google.com/file/d/1TUllEAcqQBS6QwfvAWgzYkaAPBNcgr2g/view?usp=share_link)   |
-| ✓      |            | ✓       | Naive SFT | [45.9]() | [40.8]() | [48.6]() | [ckpt](https://drive.google.com/file/d/1TUllEAcqQBS6QwfvAWgzYkaAPBNcgr2g/view?usp=share_link)   |
-| ✓      | ✓          | ✓       | Naive SFT | [46.0]() | [40.9]() | [51.3]() | [ckpt](https://drive.google.com/file/d/174IzsjO8X2dl4T6DP5mzBeTYTes0-Hx6/view?usp=share_link)   |
-| ✓      | ✓          | ✓       | RoG SFT   | [49.9]() | [44.7]() | [52.2]() | [ckpt](https://drive.google.com/file/d/1ghmdqu3xEdZWBJ_jj_7AlUcZdab314pb/view?usp=share_link)   |
+| –      | –          | –       | 0-shot    | [21.7](https://drive.google.com/file/d/1SEtF8M2fqrZTAU9eCAvna9oipBApTmR1/view?usp=share_link) | [18.0](https://drive.google.com/file/d/1e9GOPhqh0u-we4-5uzBdbS6z37HHgAnT/view?usp=share_link) | [40.8](https://drive.google.com/file/d/1xu5jSnzOHo8w_IGSny5x4gUd0eAQB_0U/view?usp=share_link) | [ckpt]()   |
+| ✓      |            |         | Naive SFT | [23.7](https://drive.google.com/file/d/1y-hN004BOhmWVxYqRv-BJfQgegKvB8V2/view?usp=share_link) | [19.4](https://drive.google.com/file/d/18QV4fjgAPwfhmVL9mwOQbdBC3h03C3sg/view?usp=share_link) | [38.1](https://drive.google.com/file/d/1190owb_6yqHSX90CDfQ1gWy9oq97LctC/view?usp=share_link) | [ckpt](https://drive.google.com/file/d/1Siv6tNfyx4us8w0Lp__NcFb7yvaU_U6b/view?usp=share_link)   |
+|        |            | ✓       | Naive SFT | [42.8](https://drive.google.com/file/d/1AZjokP93XR6gQz04cp0VVgiHZhJX4X7B/view?usp=share_link) | [39.2](https://drive.google.com/file/d/19bVk9g8uklci2SD6pCf9Ey9V1_RcAYM8/view?usp=share_link) | [46.2](https://drive.google.com/file/d/1cOrlAnijAdmzvf3akHZuRIjPMbF7m0Wb/view?usp=share_link) | [ckpt](https://drive.google.com/file/d/1TUllEAcqQBS6QwfvAWgzYkaAPBNcgr2g/view?usp=share_link)   |
+| ✓      |            | ✓       | Naive SFT | [45.9](https://drive.google.com/file/d/1ql3qW75Uid_WGpAir12wrCzBj8zGr96F/view?usp=share_link) | [40.8](https://drive.google.com/file/d/1i_aRSIuqys-DoiN8IQPlaREGoKs5aulT/view?usp=share_link) | [48.6](https://drive.google.com/file/d/1Hlt0xjeU6jXcyHk9p6sLK_S20BcnbfJP/view?usp=share_link) | [ckpt](https://drive.google.com/file/d/1TUllEAcqQBS6QwfvAWgzYkaAPBNcgr2g/view?usp=share_link)   |
+| ✓      | ✓          | ✓       | Naive SFT | [46.0](https://drive.google.com/file/d/1XvGt5Egm49MPx19WbZej2LgJlDmBi3W8/view?usp=share_link) | [40.9](https://drive.google.com/file/d/1B8TtYe7GbaXLADSOXDr_EcGUr4t48LyB/view?usp=share_link) | [51.3](https://drive.google.com/file/d/1ULBWWcWOJYoG6VrBMj156jDXcstxM_Vl/view?usp=share_link) | [ckpt](https://drive.google.com/file/d/174IzsjO8X2dl4T6DP5mzBeTYTes0-Hx6/view?usp=share_link)   |
+| ✓      | ✓          | ✓       | RoG SFT   | [49.9](https://drive.google.com/file/d/1IgB-FUTpHfg9PrM2l5_FU1ydBCjLPiTP/view?usp=share_link) | [44.7](https://drive.google.com/file/d/1Siv6tNfyx4us8w0Lp__NcFb7yvaU_U6b/view?usp=share_link) | [52.2](https://drive.google.com/file/d/1j3SZufAFqfXXuJUSTMgXHV9IPdlfJTvk/view?usp=share_link) | [ckpt](https://drive.google.com/file/d/1ghmdqu3xEdZWBJ_jj_7AlUcZdab314pb/view?usp=share_link)   |
 
 ---
 
