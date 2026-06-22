@@ -105,10 +105,11 @@ We would like to thank the following open-source contributions that made this wo
 If you find this project useful, please cite:
 
 ```bibtex
-@article{sun2025visual,
-  title={Visual Intention Grounding for Egocentric Assistants},
+@inproceedings{sun2025visual,
+  title={Visual intention grounding for egocentric assistants},
   author={Sun, Pengzhan and Xiao, Junbin and Tse, Tze Ho Elden and Li, Yicong and Akula, Arjun and Yao, Angela},
-  journal={arXiv preprint arXiv:2504.13621},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={2512--2522},
   year={2025}
 }
 ```
